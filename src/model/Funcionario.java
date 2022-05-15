@@ -9,9 +9,9 @@ public class Funcionario
 	public Funcionario(){
 	}
 
-	public Funcionario(String fNome)
+	public Funcionario(String nome)
 	{
-		this.nome = fNome;
+		this.nome = nome;
 	}
 
 	public String getNome() {
