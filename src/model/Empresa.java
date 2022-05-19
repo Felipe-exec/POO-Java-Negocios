@@ -10,6 +10,7 @@ public class Empresa
 	private List<Funcionario> funcionario;
 	
 	public Empresa(){ 
+		this.funcionario = new ArrayList<Funcionario>();
 	}
 	
 	public Empresa(String nome, String cnpj)
